@@ -12,9 +12,11 @@
 ```
 var bit = require('bit.node');
 
-console.log(bit.and(10,3));
-console.log(bit.and(10,3));
-console.log(bit.and(10,3));
-
+console.log(bit.and(10,3));       //与
+console.log(bit.or(10,3));        //或
+console.log(bit.not(10,3));       //非
+console.log(bit.xor(10,3));       //异或
+console.log(bit.rightmove(10,3)); //右移
+console.log(bit.leftmove(10,3));  //左移
 
 ```
