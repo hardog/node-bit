@@ -5,7 +5,7 @@
 # 编译说明
 
 - 编译命令:node-gyp configure build
-- 接下来会产生build文件夹,在build/Release/bit.node文件
+- 接下来会产生build文件夹,会产生build/Release/bit.node文件
 
 # 使用说明
 
